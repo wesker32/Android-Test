@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AndroidTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Login_Frame">Login</string>
+
+    <string name="login_txtUsuario">Usuário</string>
+    <string name="login_txtSenha">Senha</string>
+    <string name="login_btnEntrar">Entrar</string>
+    <string name="login_ckbConectado">Manter Conectado?</string>
+    <string name="Salvar">Salvar</string>
+    <string name="Excluir">Excluir</string>
+    <string name="Sair">Sair</string>
+    <string name="usuarios">Usuários</string>
+    <string name="Entrar">Entrar</string>
+
+    <!-- Validacoes-->
+    <string name="login_valUsuario">Usuário obriagatório.</string>
+    <string name="login_valSenha">Senha obriagatório.</string>
+    <string name="campo_obrigatorio">Campo Obrigatorio</string>
+
+    <!--Mensagens-->
+    <string name="msg_login_incorreto">Usuário e/ou senha inválido.</string>
+    <string name="title_activity_cad_usuario">CadUsuarioActivity</string>
+    <string name="mesagem_cadastro">Registro cadastrado com sucesso!</string>
+    <string name="mensagem_atualizar">Registro atualizado com sucesso!</string>
+    <string name="mesagem_error">Error ao Salvar!</string>
+
+
+    <!--Usuarios-->
+
+    <string name="usuario_txtNome">Nome</string>
+    <string name="usuario_txtLogin">Login</string>
+    <string name="usuario_txtSenha">Senha</string>
+    <string name="title_activity_menu_nav">MenuNav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/holo_red_dark"
+    android:backgroundTint="@color/colorAccent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:text="@string/login_txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/login_edt_Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="@android:color/background_light"
+            android:background="@android:color/background_light" />
+        <TextView
+            android:text="@string/login_txtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/login_edt_Senha"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="@android:color/background_light"
+            android:background="@android:color/background_light" />
+
+        <CheckBox
+            android:text="Deseja Salvar sua Senha ?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_ckbConectado" />
+
+        <Button
+            android:id="@+id/login_btn_Entrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_btnEntrar"
+            android:onClick="logar"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

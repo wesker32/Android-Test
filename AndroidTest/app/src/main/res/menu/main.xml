@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+      xmlns:xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.wi.androidtest.MainActivity"
+
+
+     <item android:id="@+id/action_cadastro_usuarios"
+           android:title="@string/usuarios"
+           android:orderInCategory="100"
+           app:showAsAction="never" />
+
+    <item android:id="@+id/action_Enrtrar_Nav"
+        android:title="@string/Entrar"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+</menu>
